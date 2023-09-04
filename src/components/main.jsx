@@ -1,8 +1,9 @@
 import React from 'react';
-import './main.css';
+import './styles/main.css';
 import About from './about'; 
 import Projects from './projects'; 
 import Contact from './contact'; 
+import Resume from './resume'; 
 
 function MainContent({ activeSection }) {
   return (
@@ -10,6 +11,8 @@ function MainContent({ activeSection }) {
       {activeSection === 'about' && <About />}
       {activeSection === 'projects' && <Projects />}
       {activeSection === 'contact' && <Contact />}
+      {activeSection === 'resume' && <Resume />}
+
     </div>
   );
 }
