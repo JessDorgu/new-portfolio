@@ -15,8 +15,8 @@ function Projects(){
            <a href="https://dochub78-78fe2203b787.herokuapp.com/"><img src={DocHub} alt="DocHub App" /></a>
            <a href="https://art-square-fd6773213118.herokuapp.com/"><img src={ArtSquare} alt="ArtSquare App" /></a>
            <a href="https://jessdorgu.github.io/Quiz/" ><img src={JS} alt="JavaScript Quiz" /></a>
-           <a href="https://dochub78-78fe2203b787.herokuapp.com/"><img src={Regex} alt="Hex Value Regex" /></a>
-           <a href="https://gist.github.com/JessDorgu/f37663fe64287a2245fa602aea04f701"><img src={Original} alt="First Website" /></a>
+           <a href="https://gist.github.com/JessDorgu/f37663fe64287a2245fa602aea04f701"><img src={Regex} alt="Hex Value Regex" /></a>
+           <a href="https://jessdorgu.github.io/Portfolio/"><img src={Original} alt="First Website" /></a>
         </div>
     );
 }

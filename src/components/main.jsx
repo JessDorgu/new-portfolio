@@ -6,7 +6,6 @@ import Contact from './contact';
 import Resume from './resume'; 
 
 function MainContent({ activeSection }) {
-  // Set a default section when activeSection is not provided
   const defaultSection = "about";
   
   return (
