@@ -1,0 +1,19 @@
+.resume-container {
+    display: flex;
+    width: 80%;
+    flex-direction: row; 
+    align-items: flex-start; 
+  }
+  
+  .pdf-viewer {
+    flex: 4; 
+  }
+  
+  .download-button-container {
+    margin-left: 20px; 
+  }
+
+  .downloader{
+width: 100px;
+  }
+  

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './header.css'; 
+import './styles/header.css'; 
 import logo from './images/logo.svg';
 import MainContent from './main'; 
 
@@ -19,6 +19,7 @@ function Header() {
           <button onClick={() => handleButtonClick('about')}>About</button>
           <button onClick={() => handleButtonClick('projects')}>Projects</button>
           <button onClick={() => handleButtonClick('contact')}>Contact</button>
+          <button onClick={() => handleButtonClick('resume')}>Resume</button>
         </div>
       </header>
       <MainContent activeSection={activeSection} />

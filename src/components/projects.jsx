@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css";
+import "./styles/projects.css";
 import SC from "./images/1.svg";
 import DocHub from "./images/2.svg";
 import ArtSquare from "./images/3.svg";
