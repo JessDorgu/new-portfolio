@@ -1,21 +1,30 @@
 import React, { useState } from 'react';
-import './header.css'; // Import the CSS for the Header component
-import logo from './logo.svg'; // Import the SVG file
+import './header.css'; 
+import logo from './logo.svg';
+import MainContent from './main'; 
 
 function Header() {
-  const [activeSection, setActiveSection] = useState(''); // State to track which section is active
+  const [activeSection, setActiveSection] = useState(null); 
+
+  const handleButtonClick = (section) => {
+    setActiveSection(section);
+  };
 
   return (
-    <div className="header">
-      <img src={logo} alt="Logo" />
-      <div className="header-links">
-        <button onClick={() => setActiveSection('about')}>About</button>
-        <button onClick={() => setActiveSection('projects')}>Projects</button>
-        <button onClick={() => setActiveSection('contact')}>Contact</button>
-      </div>
+    <div>
+      <header className="header">
+        <img src={logo} alt="Logo" />
+        <div className="header-links">
+          <button onClick={() => handleButtonClick('about')}>About</button>
+          <button onClick={() => handleButtonClick('projects')}>Projects</button>
+          <button onClick={() => handleButtonClick('contact')}>Contact</button>
+        </div>
+      </header>
+      <MainContent activeSection={activeSection} />
     </div>
   );
 }
 
 export default Header;
+
 

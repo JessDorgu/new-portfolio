@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/header';
-import MainContent from './components/main'; // Custom component
+import MainContent from './components/main'; 
 
 function App() {
   return (

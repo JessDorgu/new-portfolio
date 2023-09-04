@@ -1,7 +1,8 @@
 import React from 'react';
-import About from "./about";
-import Projects from "./projects";
-import Contact from "./contact";
+import './main.css';
+import About from './about'; 
+import Projects from './projects'; 
+import Contact from './contact'; 
 
 function MainContent({ activeSection }) {
   return (

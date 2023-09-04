@@ -1,0 +1,7 @@
+/* Main content styles */
+.main-content {
+    width: 90%; 
+    max-width: 1200px;
+    padding: 20px; 
+    margin-top: 20px;
+  }

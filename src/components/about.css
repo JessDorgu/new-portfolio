@@ -1,0 +1,29 @@
+/* About Me section styles */
+.about-me {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content{
+    padding-left: 60px;
+  }
+
+  .about-me-content {
+    flex: 1; 
+  }
+  
+  .about-me-content h2 {
+    font-size: 80px;
+    margin-bottom: 23px;}
+  
+
+  .image{
+    width: 400px;
+  }
+  
+  .content{
+    padding-right: 64px;
+  }
