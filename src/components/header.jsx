@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './header.css'; 
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import MainContent from './main'; 
+
 
 function Header() {
   const [activeSection, setActiveSection] = useState(null); 
