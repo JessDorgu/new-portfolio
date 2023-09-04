@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles/projects.css";
-import SC from "./images/1.svg";
-import DocHub from "./images/2.svg";
-import ArtSquare from "./images/3.svg";
+import SC from "./images/sports.svg";
+import DocHub from "./images/doc.svg";
+import ArtSquare from "./images/art.svg";
 import JS from "./images/quiz.svg";
 import Regex from "./images/regex.svg";
 import Original from "./images/original.svg";
